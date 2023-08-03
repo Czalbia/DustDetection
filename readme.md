@@ -1,4 +1,4 @@
-# Project Name
+# Dust detection
 
 Hi, this is a Dust Detector Neural Network. Solar panels are getting more and more popular; however, many people don't know that when solar panels aren't cleaned they can lose up to 35% of their effectiveness.
 To help people pay less for electricity bills and contribute to the elimination of climate change I created this project. 
