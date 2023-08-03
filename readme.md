@@ -17,9 +17,8 @@ THe first step was downloading a database which has images of both dirty and cle
 4. Remove imagenet from `jetson_inference/build/aarch64/bin/` and place the new one in it
 5. Place your image `jetson-inference/python/training/classification` directory
 6. Download `runALL.py` file
-7. Change the name of `name` variable
-8. Run `runALL.py` file
-9. Your result will be a `<name>__RESULT.jpg`
+7. Run `runALL.py --name ` command with the file name of the image 
+8. Your result will be a `<name>__RESULT.jpg`
 
 
 [View a video explanation here](video link)
