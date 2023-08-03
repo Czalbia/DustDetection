@@ -12,12 +12,12 @@ THe first step was downloading a [database](https://www.kaggle.com/datasets/hema
 ## Running this project
 
 1. Make sure you downloaded `jetson-inference` library and built it succesfully
-2. Download the folder of model `Solar2`
+2. Download the folder of model `Solar2` or any model in models folder
 3. Download modified version of `imagenet.py` file
 4. Remove imagenet from `jetson_inference/build/aarch64/bin/` and place the new one in it
 5. Place your image `jetson-inference/python/training/classification` directory
 6. Download `runALL.py` file
-7. Run `runALL.py --name ` command with the file name of the image 
+7. Run `runALL.py --name --model ` command with the file name of the image and the model you downloaded 
 8. Your result will be a `<name>__RESULT.jpg`
 
 
